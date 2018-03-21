@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Montserrat');
+body {
+	background-color: #55ACEE;
+}
+main {
+	padding-top: 10%;
+	max-width: 80%;
+	text-align: center;
+	margin:0 auto;
+	color: white;
+}
+h1 {
+	font-size: 3.5em;
+	font-family: 'Montserrat', sans-serif;
+}
+.quote {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.author {
+	font-family: 'Montserrat', sans-serif;
+}
+button {
+	background-color: transparent;
+	padding: 2% 2%;
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 5%;
+	transition: border .3s ease-in-out;
+}
+i {
+	margin-left: 5%;
+	color: white;
+	transition: transform .3s ease-in-out;
+	padding: 1.5% 1.5%;
+	border:  2px solid white;
+	border-radius: 5px;
+}
+i:hover {
+	transform: scale(1.1);
+}
